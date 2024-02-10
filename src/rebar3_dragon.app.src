@@ -1,0 +1,21 @@
+{application, rebar3_dragon,
+ [{description, "The LFE Dragon rebar3 plugin"},
+  {vsn, "0.0.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+    %% Package metadata:
+    {pkg_name, rebar3_dragon},
+    {maintainers, ["Duncan McGreggor"]},
+    {licenses, ["Apache-2"]},
+    {links, [
+        {"GitHub", "https://github.com/lfe-dragon/rebar3"},
+        {"Hex", "https://hex.pm/packages/rebar3_dragon"}
+    ]},
+    {exclude_files, ["priv/*"]}
+ ]}.
